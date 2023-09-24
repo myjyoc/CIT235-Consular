@@ -28,6 +28,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     scroll-snap-align: start;
+    scroll-snap-stop: normal;
 }
 
 .category-box {
@@ -69,6 +70,7 @@ body {
     margin: 50px;
     padding: 10px;
     scroll-snap-align: start;
+    scroll-snap-stop: normal;
 }
 
 .section-header {
@@ -135,6 +137,7 @@ body {
     background-color: white;
     text-align: center;
     scroll-snap-align: start;
+    scroll-snap-stop: normal;
 }
 
 .main {
