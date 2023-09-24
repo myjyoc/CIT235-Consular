@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/dsts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+}
+
+.category-box {
+    margin: -5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.category-box img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.0;
+    object-fit: cover;
+}
+
+.category-box img:hover {
+    opacity: 1.0;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+    scroll-snap-align: start;
+}
+
+.section-header {
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    color: white;
+}
+
+#music .section-header{
+    text-align: right;
+    right: 20px;
+}
+
+#anime .section-header{
+    text-align: right;
+    right: 20px;
+}
+
+#games .section-header{
+    text-align: right;
+    right: 20px;
+}
+
+.box {
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px;
+    overflow: hidden;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box-content {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    opacity: 0.0;
+}
+
+.box-content:hover {
+    opacity: 1.0;
+}
+
+.box-content img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.section1 {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    scroll-snap-align: start;
+}
+
+.main {
+    width: 500px;
+    background: rgb(0, 16, 78);
+    margin: auto;
+    margin-top: 7.5%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.main-img {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.main h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-bottom: -10px;
+}
+
+.main h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 5px;
+    transition: all ease-in-out 250ms;
+}
+
+.social-links a:hover {
+    color: rgba(0, 183, 255, 0.8);
+}
